@@ -1,6 +1,49 @@
+body{
+    border: 2px solid black;
+    width: 30%;
+    margin: 0 auto;
+}
+
 header{
     border-bottom: 7px dotted purple;
+    
 }
 header h1{
     color: hotpink;
+    margin-left: 10px;
+    margin-bottom: 0;
+    
+}
+h5{
+    color: rgb(165, 161, 161);
+    
+}
+
+main p{
+    font-size: 15px;
+    line-height: 20px;
+    color: rgb(90, 78, 78);
+}
+main h2{
+    font-style: italic;
+    font-weight: bold;
+
+}
+div{
+    border: 5px solid purple;
+    background-color: rgba(137, 165, 163, 0.5);
+}
+.email a{
+    color: green;
+    text-decoration: none;
+}
+.web a{
+    color: lightcoral;
+    
+}
+.tel{
+    color: rgb(90, 78, 78);
+}
+.email, .tel, .web{
+    color: rgb(90, 78, 78);
 }
