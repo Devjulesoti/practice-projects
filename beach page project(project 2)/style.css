@@ -1,0 +1,80 @@
+.sec-1{
+   background-image: url(images/beach2.jpg); 
+   background-repeat: no-repeat;
+   background-position: center;
+   background-size: cover;
+   height: 500px;
+   position: relative;
+
+}
+.welcome-text{
+   z-index: 100;
+   text-align: center;
+    position: absolute;
+    top: 120px;
+    left: 320px;
+}
+.welcome-text p, h1{
+   color: white;
+}
+.welcome-text h1{
+   font-size: 40px;
+}
+.read-more{
+   padding-top: 10px;
+   padding-bottom: 10px;
+   padding-left: 15px;
+   padding-right: 15px;
+   border-radius: 5px;
+   border: 1px solid black;
+   background-color: transparent;
+   color: white;
+   font-size: 18px;
+}
+.read-more:hover{
+   color: white;
+   background-color: rgb(89, 172, 33);
+}
+
+.opacity{
+   width: 100%;
+   background-color:rgba(0, 0, 0, 0.452);
+   position: absolute;
+   top: 0;
+   bottom: 0;
+   left: 0;
+   right: 0;
+  
+}
+.sec-2{
+   background-color: rgb(190, 148, 99);
+   margin: 0;
+   text-align: center;
+   padding-bottom: 20px;
+   /* height: 300px; */
+}
+.sec-2 p , .sec-3 p{
+   margin-top: 0;
+   padding-top: 20px;
+   color: black;
+   font-size: 20px;
+   margin-bottom: 0;
+} 
+.sec-3{
+   background-color: rgb(71, 211, 199);
+   margin: 0;
+   padding-bottom: 20px;
+}
+.sec-4{
+   display: flex;
+   flex-direction: row;
+   text-align: left;
+   font-size: 20px;
+}
+.sec-4 p{
+   margin-left: 10px;
+   padding-bottom: 25px;
+}
+.row-1, .row-3{
+   background-color: rgb(190, 148, 99);
+}
